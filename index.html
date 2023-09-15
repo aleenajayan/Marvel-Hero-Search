@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Heroes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo" class="logo">
+        <ul class="list">
+            <li><a href="#heroes">Home</a></li>
+            <li><a href="#heroes">Heroes</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#series">Series</a></li>
+        </ul>
+    </header>
+
+
+
+    <div class="container" id="heroes"> 
+        <div class="chara-box">
+            <div class="chara-search">
+                <div class="input">
+                    <input type="text" id="chara-input" placeholder="Enter the Hero Name" >
+                    <button id="button1" onclick="add1()">Enter</button>
+                </div>
+            
+               <div class="output">
+                    <h1>Loading...</h1>
+                    <span>Loading...</span>
+                </div>
+            </div>
+            <div class="chara-pic">
+               <img src="wow1.jpg" alt="Marvel"> 
+               <img src="wow2.jpg" alt="">
+            </div>
+
+        </div>    
+    </div>
+
+
+
+    <div class="images-face">
+        <img src="face/ironman.jpeg" alt="">
+        <img src="face/captain.jpeg" alt="">
+        <img src="face/thor.jpeg" alt="">
+        <img src="face/spider man.jpeg" alt="">
+        <img src="face/Bruce Banner.jpeg" alt="">
+        <img src="face/drstrange.jpeg" alt="">
+        <img src="face/blackwidow.jpeg" alt="">
+        <img src="face/blackpanther.jpeg" alt="">
+        <img src="face/antman.jpeg" alt="">
+        <img src="face/starlord.jpeg" alt="">
+    </div>
+
+
+
+    <div class="movies-container" id="movies">
+     <div class="movie-box">
+            <div class="movie-pic">
+               <img src="wee1.jpg" alt="Marvel"> 
+               <img src="wee2.jpg" alt="">
+            </div>
+            <div class="movie-search">
+                <div class="movie-input">
+                    <input type="text" id="movie-input" placeholder="Enter the Movie Name">
+                    <button>Enter</button>
+                </div>
+            
+               <div class="movie-output">
+                    <h1>Loading...</h1>
+                    <span>Loading...</span>
+                </div>
+            </div>
+        </div>  
+        
+      
+    </div>
+
+
+
+    <div class="images-movie">
+        <img src="movies/1.jpg" alt="">
+        <img src="movies/2.jpg" alt="">
+        <img src="movies/3.jpg" alt="">
+        <img src="movies/4.jpg" alt="">
+        <img src="movies/5.jpg" alt="">
+        <img src="movies/6.jpg" alt="">
+        <img src="movies/7.jpg" alt="">
+        <img src="movies/8.jpg" alt="">
+        <img src="movies/9.jpg" alt="">
+        <img src="movies/10.jpg" alt="">
+    </div>
+
+
+
+    <div class="series-container" id="series">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
